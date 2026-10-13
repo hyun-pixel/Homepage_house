@@ -113,7 +113,7 @@ $('request').addEventListener('input',()=>{$('request-count').textContent=$('req
 for(const id of ['name','phone','region','time','consent'])$(id).addEventListener(id==='consent'||id==='time'?'change':'input',()=>showError(id,''));
 function confirmBooking(){
  setBounds();clearErrors();const errors=[];
- if(!$('name').value.trim())errors.push(['name','성함을 입력해주세요.']);
+ if(!$('name').value.trim())errors.push(['name','이름을 입력해주세요.']);
  if(!/^010\d{8}$/.test($('phone').value.replace(/[\s-]/g,'')))errors.push(['phone','010으로 시작하는 연락처 11자리를 입력해주세요.']);
  if(!$('region').value.trim())errors.push(['region','예정 지역의 시·군·구를 입력해주세요.']);
  const problem=dateError();if(problem)errors.push(['date',problem]);

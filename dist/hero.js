@@ -2,7 +2,7 @@
 (()=>{
 const hero=document.getElementById('hero'),stage=document.getElementById('hero-stage'),fit=document.getElementById('visual-fit'),stack=document.getElementById('image-stack'),images=[...stack.querySelectorAll('img')],buttons=[...document.querySelectorAll('[data-stage]')],fill=document.getElementById('progress-fill'),title=document.getElementById('hero-title'),label=document.getElementById('stage-label'),description=document.getElementById('hero-description'),motion=matchMedia('(prefers-reduced-motion:reduce)');
 const copies=[
-['당신의 삶에서, 집을 시작합니다.','설계 · 생활에서 시작','생활방식에서 시작하는 맞춤 주택.'],
+['당신의 삶에서, 집을 시작합니다.','설계 · 생활에서 시작','생활 방식에서 시작하는 맞춤 주택.'],
 ['생각을 공간으로, 계획을 집으로.','입체 주택 · 계획을 구체화','공간의 관계와 재료를 계획합니다.'],
 ['가족의 일상이 머무는 집.','완성 주택 · 일상을 담다','정원과 이어지는 따뜻한 일상.']
 ];let queued=false,lastStage=-1,failed=false,videoReady=false,videoFailed=false,imagesFailed=false,desiredTime=0;

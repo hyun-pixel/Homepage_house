@@ -23,12 +23,12 @@ body[data-page=home] main{padding-top:0}
 .hero-title{max-width:1050px;font-size:clamp(42px,5.7vw,88px);min-height:2.65em;line-height:1.28;font-weight:400;letter-spacing:-.035em;white-space:pre-line}
 .hero-description{color:#f0e8dc;max-width:600px;font-size:17px;line-height:1.7;margin-top:22px}
 .hero-bottom{position:absolute;left:clamp(24px,4.2vw,64px);right:clamp(24px,4.2vw,64px);bottom:26px;max-width:1472px;width:auto;margin:auto;padding:0;z-index:5;color:#f0e8dc}
-.bottom-row{gap:24px}.stage-actions{gap:26px}.stage-button{color:#f0e8dc;padding:8px 0;position:relative;font-size:14px;transition:color .25s}
+.bottom-row{gap:24px}.stage-actions{gap:26px}.stage-button{color:#f0e8dc;min-width:60px;text-align:left;padding:8px 0;position:relative;font-size:14px;transition:color .25s}
 .stage-button[aria-current=step]{color:#fffaf1;background:transparent;border-radius:0;font-weight:600}
 .stage-button:after{content:"";height:1px;background:#d0b38b;position:absolute;left:0;right:0;bottom:5px;transform:scaleX(0);transform-origin:left;transition:transform .3s var(--ease)}
 .stage-button[aria-current=step]:after,.stage-button:hover:after{transform:scaleX(1)}
-.hero-phase{font-size:12px;color:#e5d8c6}.progress{background:rgba(241,232,219,.35);height:1px;margin:14px 0 12px}.progress-fill{background:#dac099}
-.hero-bottom .caption{color:#e5d8c6;font-size:11px}.asset-message{color:#fff3dd;font-size:13px;max-width:55em}
+.hero-phase{font-size:13px;color:#e5d8c6}.progress{background:rgba(241,232,219,.35);height:1px;margin:14px 0 12px}.progress-fill{background:#dac099}
+.hero-bottom .caption{color:#e5d8c6;font-size:13px}.asset-message{color:#fff3dd;font-size:13px;max-width:55em}
 body.hero-view .site-header{background:transparent;border-color:rgba(245,235,218,.25);color:#fffaf1}
 body.hero-view .site-header .wordmark,body.hero-view .nav a:not(.primary){color:#fffaf1}
 body.hero-view .nav .primary{background:#f3ede2;border-color:#f3ede2;color:#28342b!important}
@@ -41,7 +41,7 @@ body[data-page=home] .promise-copy h2{font-size:clamp(36px,5.2vw,74px);max-width
 body[data-page=home] .promise-layout .photo{margin-top:58px}
 body[data-page=home] .promise-list{margin-top:48px;padding-top:32px}
 body[data-page=home] .promise-list li{font-family:DohyunDisplay,serif;font-size:23px;font-weight:500;line-height:1.6}
-.photo .image-button{overflow:hidden}.photo .image-button img{transition:transform .8s var(--ease),filter .4s;transform-origin:center}
+.photo figcaption{font-size:14px;line-height:1.65}.photo .image-button{overflow:hidden}.photo .image-button img{transition:transform .8s var(--ease),filter .4s;transform-origin:center}
 @media(hover:hover){.photo .image-button:hover img{transform:scale(1.035);filter:brightness(1.025)}}
 .photo .image-button:focus-visible{outline-offset:8px}
 body[data-page=home] .proposal-band{background:var(--night);color:#f8f0e4}
@@ -58,7 +58,7 @@ body[data-page=home] .proposal-band h2{font-size:clamp(34px,4.8vw,68px)}
 .faq-list{max-width:1160px;margin-top:48px}.faq{padding:22px 0;border-color:var(--line)}
 .faq summary{font-size:21px;transition:color .2s,transform .25s var(--ease)}.faq summary:hover{color:var(--forest);transform:translateX(3px)}
 .faq[open] summary{color:var(--forest)}.faq p{max-width:46em;color:var(--muted)}
-body[data-page=home] .cta-band,#house-consultation{background:linear-gradient(rgba(13,27,18,.78),rgba(13,27,18,.78)),url("assets/garden.webp") center/cover;color:#fff7e9}
+body[data-page=home] .cta-band,#house-consultation{background:linear-gradient(rgba(13,27,18,.78),rgba(13,27,18,.78)),url("assets/garden.webp") center/cover;background-color:var(--night);color:#fff7e9}
 body[data-page=home] .cta-band .cta h2,#house-consultation h2{font-size:clamp(36px,5vw,72px);font-weight:400;max-width:1000px;line-height:1.4}
 .cta-band .cta p,#house-consultation p{color:#e9dfd0;font-size:18px}
 .cta-band .primary,#house-consultation .primary{background:#f3ede2;border-color:#f3ede2;color:#27392c!important}
@@ -67,6 +67,7 @@ body[data-page=home] .cta-band .cta h2,#house-consultation h2{font-size:clamp(36
 #house-consultation{max-width:none;padding-inline:max(40px,calc((100vw - 1400px)/2))}
 .page-title{font-size:clamp(36px,5.1vw,72px);font-weight:400;line-height:1.45;max-width:1150px;letter-spacing:-.035em}
 .page-intro{padding-block:64px 58px}.page-lead{font-size:18px}
+.breadcrumb ol{align-items:center}.breadcrumb a{display:inline-flex;align-items:center;min-height:32px}.house-details>span{white-space:nowrap}
 .detail-section h2{font-size:clamp(30px,3.8vw,54px);font-weight:400;line-height:1.4}
 .space-heading h3{font-size:36px;font-weight:500;line-height:1.4}
 .lnb a{position:relative}.lnb a:hover,.lnb a[aria-current=location]{text-decoration:none}.lnb{background:#f7f4ed}
@@ -97,7 +98,7 @@ dialog::backdrop{background:rgba(13,25,17,.52)}
  .hero-title{font-size:clamp(34px,8.8vw,50px);line-height:1.45;min-height:2.95em;max-width:600px}
  .hero-description{font-size:14px;margin-top:16px;max-width:24em}.hero-video,.scene-image{object-position:50% center}
  .hero-bottom{left:20px;right:20px;bottom:22px}.bottom-row{display:block}.stage-actions{gap:26px}.stage-button{font-size:13px}
- .hero-phase{margin-top:8px;font-size:11px}.progress{margin:10px 0}.hero-bottom .caption{font-size:11px}
+ .hero-phase{margin-top:8px;font-size:12px}.progress{margin:10px 0}.hero-bottom .caption{font-size:12px}
  body[data-page=home] .content h2{font-size:34px}.content .overline{margin-bottom:18px}
  body[data-page=home] .promise-copy h2{font-size:38px}body[data-page=home] .promise-layout .photo{margin-top:34px}
  body[data-page=home] .promise-list{margin-top:30px;padding-top:25px;gap:23px}body[data-page=home] .promise-list li{font-size:21px}
@@ -105,12 +106,12 @@ dialog::backdrop{background:rgba(13,25,17,.52)}
  .process{margin-top:36px;gap:36px}.process li{padding-top:24px}.process li:before{font-size:36px;margin-bottom:16px}.process h3{font-size:21px}
  .faq-list{margin-top:32px}.faq summary{font-size:18px}.faq p{font-size:16px}
  body[data-page=home] .cta-band .cta h2,#house-consultation h2{font-size:38px}.cta-band .cta p,#house-consultation p{font-size:16px}
- #house-consultation{padding-inline:20px}.page-title{font-size:36px}.page-intro{padding-block:32px 38px}.page-lead{font-size:16px}
- .detail-section h2{font-size:32px}.space-heading h3{font-size:29px}.lnb-inner{gap:8px 24px}
+ #house-consultation{padding-inline:20px}.page-title{font-size:clamp(30px,9.23vw,36px)}.page-intro{padding-block:32px 38px}.page-lead{font-size:16px}
+ .photo figcaption{font-size:13px}.detail-section h2{font-size:32px}.space-heading h3{font-size:29px}.lnb-inner{gap:8px 24px}
  .site-footer{padding-block:48px}.site-footer .wordmark{font-size:30px}.drawer{padding:26px}.drawer-links a{font-size:24px}
  .booking-aside h2{font-size:25px}.dialog-head h2{font-size:22px}
 }
-@media(max-height:600px){.hero-copy{bottom:136px}.hero-title{font-size:clamp(30px,4vw,50px);min-height:2.6em;line-height:1.25}.hero-description{display:none}.hero-bottom{bottom:16px}.hero-phase{display:none}.hero-bottom .caption{font-size:11px}}
+@media(max-height:600px){.hero-copy{bottom:136px}.hero-title{font-size:clamp(30px,4vw,50px);min-height:2.6em;line-height:1.25}.hero-description{display:none}.hero-bottom{bottom:16px}.hero-phase{display:none}.hero-bottom .caption{font-size:12px}}
 .asset-fallback .hero-stage{position:relative;height:100svh;min-height:560px;display:block;padding:0}
 .asset-fallback .visual-fit{position:absolute;display:block}.asset-fallback .image-stack{width:100%!important;height:100%;max-height:none}
 @media(prefers-reduced-motion:reduce){
@@ -121,4 +122,3 @@ dialog::backdrop{background:rgba(13,25,17,.52)}
  .photo .image-button:hover img,.faq summary:hover,.primary:active,.secondary:active{transform:none}
  .process li.is-revealed:after,dialog[open]::backdrop{animation:none}
 }
-
