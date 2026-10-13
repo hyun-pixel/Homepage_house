@@ -1,0 +1,30 @@
+도현종합건설 공간 콘셉트 이미지 생성 프롬프트 v1
+방식: 내장 image_gen · 승인된 외관과 거실 재료를 참조
+AI 가상 주택의 공간 제안이며 실제 시공 사진·측정 도면이 아닙니다.
+
+[거실]
+Use case: photorealistic-natural.
+Asset type: living-room image for the fictional Dohyun Courtyard House website.
+Input image: approved two-storey L-shaped courtyard house exterior; use its architectural identity, window scale, charcoal frames, light ivory stone and warm timber as continuity references.
+Create one new wide 16:9 interior architectural photograph from inside the ground-floor garden-facing living room of this same fictional home for parents and two children. Normal single-storey ceiling around 2.8 metres, generous but believable scale, full-height charcoal-framed glazing toward the courtyard garden visible outside, with a glimpse of the same ivory stone opposite wing. Warm oak floor, off-white plaster ceiling and walls, restrained oak wall detailing, ivory linen sofa, low natural wood coffee table, a few everyday books, soft woven rug, healthy garden trees. Calm warm-modern family home, refined material quality without ostentatious hotel styling. Soft late-afternoon daylight consistent with the exterior, realistic shadows and texture. Wide eye-level view, straight verticals, 24–28mm architectural lens, natural composition, clean realistic glazing.
+This is an AI fictional interior concept, not a measured as-built room or real project.
+No people, text, logos, watermark, pool, huge chandelier, double-height void, marble palace, impossible furniture or distorted windows.
+
+[주방·식당]
+Use case: photorealistic-natural. Asset: one wide 16:9 kitchen and dining photograph for the AI fictional Dohyun Courtyard House.
+Image 1 is the approved exterior; image 2 is the matching living room. Create a NEW view of a believable ground-floor kitchen/dining space adjoining that living room. Match warm oak flooring, off-white walls, charcoal full-height garden glazing, warm ivory stone and the quiet family-home palette. Single-storey ceiling about 2.8 metres. A restrained oak-and-ivory kitchen with built-in appliances, modest pale stone island, four-to-six-place solid oak dining table with simple chairs, small pendant over table, a bowl and a few ceramics. Through windows see the same courtyard garden and light-stone opposite wing. Calm premium custom family home, architectural photography, soft late-afternoon daylight, realistic materials, straight verticals, eye-level 24–28mm lens, coherent scale. Fictional interior design concept, not a measured real plan. No people, words, logos, watermark, excessive marble, huge chandeliers, hotel lobby, warped appliances, unrealistic cabinetry.
+
+[침실]
+Use case: photorealistic-natural. Asset: one wide 16:9 parents' bedroom image for the AI fictional Dohyun Courtyard House.
+References show the approved exterior and living-room materials. Create a NEW eye-level architectural photograph of a calm second-floor parents' bedroom in the same warm-modern family home. Normal ceiling height, modest spacious scale, warm oak floor, quiet ivory plaster walls, simple low oak double bed with cream linen, small timber bedside tables, one discreet reading light, linen curtains and charcoal-framed glazing. The outdoor view is from the upper floor overlooking the courtyard tree canopy and garden, with a small believable private terrace beyond the glazing, not a ground-floor panorama. Restrained oak joinery and soft natural daylight, intimate residential atmosphere, realistic bedding and furniture, straight verticals, 28mm lens. A fictional interior proposal, not an actual built room.
+No people, text, logos, watermark, giant hotel suite, bath in the bedroom, neon, chandelier, double-height ceiling, inconsistent exterior palette or distorted furniture.
+
+[서재]
+Use case: photorealistic-natural. Asset: one wide 16:9 study/flexible family-room photo for the AI fictional Dohyun Courtyard House.
+Use the approved exterior and living-room references for materials and window identity. Create a NEW view inside a comfortable ground-floor study that can support a parent working and children reading. Believable small room about 12–16 square metres, normal ceiling about 2.8m, one warm oak desk and upholstered task chair, built-in oak bookshelves with ordinary unreadable book spines, a small reading chair, off-white walls, oak floor and charcoal-framed garden window. A discreet closed cabinet keeps school supplies out of the way. Through the window a glimpse of the same courtyard greenery and light stone facade. Warm natural daylight, quiet residential mood, realistic textures, simple furniture, straight verticals, eye-level 28–35mm architectural photo. This is a flexible-space concept, not a real measured room.
+No people, visible text, logos, watermarks, computer brand marks, giant office, fake futuristic devices, distorted furniture, hotel or corporate styling.
+
+[정원·테라스]
+Use case: photorealistic-natural. Asset: wide 16:9 garden and terrace photograph of the same fictional Dohyun Courtyard House.
+Use the approved exterior as the exact architectural identity. Create a NEW close eye-level viewpoint from the courtyard garden toward the ground-floor terrace and glazed living room. Keep the same two-storey L-shaped ivory stone building, original charcoal window frames, timber accents, flat parapets and warm oak soffit. Show a believable part of the facade, terrace step and garden; this is a closer alternate view, not a redesigned house. A quiet outdoor seating pair with ivory cushions, a small natural wood table, lawn, restrained native-looking perennial planting, a young courtyard tree and pale stepping stones. Living room inside softly visible through the glazing. Soft late-afternoon daylight, warm-modern family home, realistic architectural photo, straight verticals, gentle natural imperfections and material texture, 28–35mm lens. AI fictional landscape concept, no real as-built claims.
+No people, writing, logos, watermark, swimming pool, new floors, changed facade, enormous grounds, exotic resort, improbable cantilevers or distorted chairs.

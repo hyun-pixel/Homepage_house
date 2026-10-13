@@ -1,0 +1,26 @@
+도현종합건설 히어로 이미지 생성 프롬프트 세트 v1
+생성일: 2026-10-12
+방식: 내장 image_gen · 승인된 외관 이미지를 기준으로 편집
+설계도와 중간 단계는 AI 가상 건축 연출이며 실제 도면이나 공사 기록이 아닙니다.
+
+[설계도]
+Use case: style-transfer.
+Asset type: first frame of a Korean luxury custom home builder's scroll-driven hero.
+Input image: the approved Dohyun Courtyard House exterior. This image is the exact geometric and camera reference, not a loose inspiration.
+Primary request: Transform the supplied full-frame exterior photo into a precise architectural perspective blueprint illustration of exactly the SAME house. Preserve the original framing and output aspect ratio of about 16:9.
+Keep invariant: fixed camera viewpoint, horizon, entire L-shaped two-storey building silhouette, all roof/parapet heights, courtyard opening, both wings, proportions, window openings and mullion placement, timber entrance location, stone panel divisions, terrace edges and stepping-stone path positions. Every important visible architectural edge should align with the reference photo. Do not zoom, rotate, recenter or invent a new design.
+Style: refined luminous ivory-white and soft cyan architectural linework on an even deep blueprint blue background (#153F68). Thin clean technical edges with restrained line weight, clearer main building outlines, faint secondary depth lines and a very subtle square grid. Draw the front-facing visible edges accurately; do not add confusing x-ray internal structure. The entire house should remain fully visible.
+Surroundings: retain only simplified faint outlines of the existing garden, path, trees and ground plane in their original positions so the blueprint is quiet and the house is the focus. Replace photographic sky and textures with the same deep blueprint-blue field.
+Text: none. No dimension labels, numbers, logos, annotations, borders or watermark. This is a fictional AI marketing concept, not a real measured construction drawing.
+Avoid: top-down floor plan, isometric view, changed roof geometry, extra floors, new windows, thick neon glow, 3D shaded solid building, giant technical callout arrows, dense CAD clutter.
+
+[건설 중간 단계]
+Use case: precise-object-edit.
+Asset type: middle construction/materialization frame of the same scroll-driven house hero.
+Input image: approved finished exterior of Dohyun Courtyard House. Match it exactly in geometry and camera so both images can be layered in a website.
+Primary request: Depict this EXACT two-storey L-shaped courtyard house as a refined architectural visualization in the middle of its construction and material assembly. Keep the entire canvas aspect ratio and camera composition of the reference, about 16:9. The house is a fictional AI concept; this is not documentary construction photography.
+Strict invariants: unchanged camera, framing, horizon, roof/parapet edges, height of each wing, courtyard and entrance location, slab heights, all window opening positions and sizes, building width/depth, terrace and path positions. No new floor, changed roof, expanded wing or additional opening.
+Change only the completion state: the structural shell and parapets are in place in pale exposed concrete with clean realistic seams. The left wing has begun acquiring the original ivory stone cladding on selected patches, while the right wing and courtyard remain mainly exposed structure. Preserve each opening; some have the original charcoal frames starting to appear, others are unglazed with dark empty unfinished interiors. Timber accents are not complete. Add a few delicate blue-white architectural edge lines directly aligned to the existing house edges in unfinished areas, as a restrained visualization of the planned finished house. Avoid dense wireframe clutter.
+Scene: same trees, landscape layout, ground plane and background sky as the reference, with foreground planting lightly subdued. Natural balanced daylight and believable raw concrete texture, premium architectural rendering. Quiet empty site; no machinery or workers, no site clutter, no safety-risk dramatization.
+Text: none. No logos, numbers, captions, dimensions or watermark.
+Avoid: cranes, scaffolding obscuring the house, piles of rubbish, furniture in unfinished rooms, grotesque cavities, impossible detached slabs, fantasy physics, altered perspective, blueprint-only image, fully completed exterior.

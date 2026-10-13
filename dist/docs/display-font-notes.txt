@@ -1,0 +1,6 @@
+Display typeface: Noto Serif KR, Google Fonts.
+Source: https://github.com/google/fonts/tree/main/ofl/notoserifkr
+License: SIL Open Font License 1.1; assets/NotoSerifKR-LICENSE.txt.
+Local WOFF2 uses the current site character subset, weight 400-600.
+No third-party font request is made when visitors open this demo.
+When new display copy is added, regenerate the subset or use the complete typeface.

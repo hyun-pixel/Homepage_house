@@ -1,0 +1,10 @@
+도현종합건설 히어로 영상 제작안 v1
+2026-10-12 · 비용 승인 후 영상 1회 생성 완료
+모델: Seedance 2.5
+8초 · 1080p · 16:9 · 무음 · 1회
+견적: 96크레딧. 가격 상승·재생성은 별도 승인.
+참고 자료: 시작=설계도, 중간 참고=건설 중간 이미지, 끝=승인된 외관.
+참고 이미지 업로드와 최종 96크레딧 견적 확인 후 1회 생성 완료. 원본과 웹용 MP4 별도 보존. 생성 견적은 실제 계정 차감 내역 확인과 구분한다.
+
+[생성 지시문]
+Create one silent 8-second premium architectural construction visualization for a Korean custom-home website, landscape 16:9. Locked camera throughout, no pan, zoom, orbit or cuts. Begin with the supplied perspective blueprint of the house, materialize the exact same two-storey L-shaped courtyard structural shell, then assemble ivory stone, dark window frames, glass and timber accents until the final frame matches the supplied approved completed exterior. Use the supplied middle unfinished-house image only as the structural completion reference. Preserve all roof edges, floor heights, wings, window openings, camera perspective and garden/path positions. Timing: 0-2s blueprint drawing; 2-4s structural shell forms; 4-6.5s materials and glazing complete; 6.5-8s hold the exact finished home. Show an elegant architectural visualization, not documentary footage. No people, machinery, text, labels, logo, watermark, narration, music or sound.
