@@ -10,6 +10,21 @@
 
 설치나 빌드 과정이 없는 HTML·CSS·JavaScript 홈페이지입니다. 정적 호스팅을 연결할 때 제공할 폴더는 `dist`입니다.
 
+## Vercel 배포 설정
+
+저장소 최상위의 `vercel.json`은 홈페이지 파일이 있는 `dist`를 배포 폴더로 지정합니다. 이 설정이 없으면 저장소 최상위가 제공되어 대표 주소에서 404 오류가 발생할 수 있습니다.
+
+Vercel 프로젝트의 **Settings → Build and Deployment**에서 다음 기준을 사용합니다.
+
+- **Root Directory**: 기본값(빈칸 또는 저장소 최상위). `dist`로 중복 지정하지 않습니다.
+- **Framework Preset**: `Other`
+- **Build Command**: 빈칸. 별도 빌드 작업이 없습니다.
+- **Output Directory**: `dist`
+
+Framework Preset, Build Command, Output Directory는 `vercel.json`에서 지정합니다. 설정은 다음 배포부터 적용되므로 수정 파일이 포함된 최신 커밋을 배포해야 합니다. Git 자동 배포를 연결했다면 `main`에 푸시한 뒤 **Deployments**에서 새 배포의 완료 여부를 확인합니다.
+
+배포 후 대표 주소(`/`), 주택 상세(`/house.html`), 상담 예약(`/consultation.html`)과 사진·영상이 열리는지 확인합니다. 최신 커밋의 배포가 자동으로 생성되지 않으면 **Deployments → Create Deployment**에서 `main`의 최신 커밋을 선택합니다. 이전 커밋을 그대로 재배포하면 새 설정이 반영되지 않습니다.
+
 ## 화면 구성
 
 - 메인: 전체 화면 스크롤 영상, 명조 제목, 회사의 약속, 대표 주택, 4단계 과정, FAQ와 상담 연결
